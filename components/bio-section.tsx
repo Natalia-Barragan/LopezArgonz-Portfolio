@@ -1,4 +1,5 @@
 import { GraduationCap, Building2, Calendar, Award } from "lucide-react"
+import { BackToTop } from "@/components/back-to-top"
 
 const education = [
   {
@@ -41,7 +42,8 @@ const education = [
 
 export function BioSection() {
   return (
-    <section id="trayectoria" className="py-20 md:py-32 px-4 bg-muted/30">
+    <section id="trayectoria" className="py-20 md:py-32 px-4 bg-muted/30 relative">
+      <BackToTop />
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 md:mb-12 text-center">Trayectoria</h2>
         <div className="space-y-6 text-lg leading-relaxed text-foreground/90 mb-16 text-justify">

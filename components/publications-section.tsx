@@ -3,11 +3,21 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { FileText, ExternalLink, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { BackToTop } from "@/components/back-to-top"
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
 
 const publications = [
+  {
+    title: "Por un trabajo digno en la era de la inteligencia artificial: hacia la rehumanización del trabajo",
+    journal: "XIII Congreso Regional Americano de Derecho del Trabajo",
+    publisher: "Fundación de Cultura Universitaria",
+    year: "28 Ago 2025",
+    description: "Ponencia presentada en el XIII Congreso Regional Americano de Derecho del Trabajo y la Seguridad Social.",
+    link: "https://revistas.fcu.edu.uy/index.php/cradtss/es/article/view/5915/5314",
+  },
+
   {
     title: "El impacto de la tecnología en la Justicia Nacional del Trabajo: la verdadera transformación de la Oficina Judicial",
     journal: "Revista de Derecho Laboral – Actualidad",
@@ -21,6 +31,7 @@ const publications = [
     publisher: "Tirant lo blanch",
     year: "23 May 2023",
     description: "En AA. VV., SANGUINETI RAYMOND, W. (Dir), pp. 19-50.",
+    link: "https://dialnet.unirioja.es/servlet/articulo?codigo=8975454",
   },
   {
     title: "La recualificación profesional en los procesos de reconversión tecnológica de empresas: una mirada a propósito de la Declaración EMN de OIT",
@@ -28,6 +39,7 @@ const publications = [
     publisher: "Ministerio de Trabajo (España) / UCM",
     year: "15 Mar 2023",
     description: "En 'Justicia social, trabajo decente y objetivos de desarrollo sostenible'. Ministerio de Trabajo, Migraciones y Seguridad Social.",
+    link: "https://dialnet.unirioja.es/servlet/articulo?codigo=9639847",
   },
   {
     title: "Recensión del libro 'Diligencia debida y trabajo decente en las cadenas globales de valor'",
@@ -57,6 +69,7 @@ const publications = [
     publisher: "Aranzadi España",
     year: "29 Dic 2021",
     description: "En AA.VV., Molina Navarrete y Vallecillo Gámez (dir). pp. 335-354.",
+    link: "https://produccioncientifica.usal.es/investigadores/818520/publicaciones?lang=eu",
   },
   {
     title: "Las reformas laborales en América Latina: entre el derecho al empleo y el Derecho del trabajo",
@@ -156,6 +169,7 @@ export function PublicationsSection() {
 
   return (
     <section id="publicaciones" className="py-20 md:py-32 px-4 relative">
+      <BackToTop />
       <div className="container mx-auto max-w-6xl">
         <motion.div
           ref={ref}

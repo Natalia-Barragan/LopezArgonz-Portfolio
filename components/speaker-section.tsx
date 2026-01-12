@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { BackToTop } from "@/components/back-to-top"
 import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, Calendar, ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -192,7 +193,8 @@ function ConferenceCard({ conf }: { conf: Conference }) {
 
 export function SpeakerSection() {
   return (
-    <section id="congresos" className="py-20 md:py-32 px-4 bg-muted/30">
+    <section id="congresos" className="py-20 md:py-32 px-4 bg-muted/30 relative">
+      <BackToTop />
       <div className="container mx-auto max-w-6xl">
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Conferencias & Ponencias</h2>

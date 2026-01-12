@@ -95,9 +95,10 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.5 }} // Delay until name finishes typing
-            className="text-2xl md:text-4xl font-light text-foreground/90 max-w-4xl mx-auto"
+            className="text-xl md:text-3xl font-light text-foreground/90 max-w-4xl mx-auto leading-relaxed"
           >
-            Derecho del Trabajo en la Era de la Inteligencia Artificial
+            Explorando los desafíos emergentes de la inteligencia
+            artificial, la regulación algorítmica y las transformaciones del trabajo en el siglo XXI.
           </motion.h2>
 
           <motion.div

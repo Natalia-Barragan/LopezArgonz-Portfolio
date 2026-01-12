@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { GraduationCap, BookOpen, Scale, Briefcase } from "lucide-react"
+import { BackToTop } from "@/components/back-to-top"
 
 const judicialExperience = [
   {
@@ -42,7 +43,8 @@ const teachingExperience = [
 
 export function TeachingSection() {
   return (
-    <section id="experiencia" className="py-20 md:py-32 px-4">
+    <section id="experiencia" className="py-20 md:py-32 px-4 relative">
+      <BackToTop />
       <div className="container mx-auto max-w-5xl">
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Experiencia Profesional & Docencia</h2>
