@@ -69,7 +69,7 @@ const publications = [
     publisher: "Aranzadi España",
     year: "29 Dic 2021",
     description: "En AA.VV., Molina Navarrete y Vallecillo Gámez (dir). pp. 335-354.",
-    link: "https://produccioncientifica.usal.es/investigadores/818520/publicaciones?lang=eu",
+    link: "https://dialnet.unirioja.es/servlet/articulo?codigo=8394871",
   },
   {
     title: "Las reformas laborales en América Latina: entre el derecho al empleo y el Derecho del trabajo",
