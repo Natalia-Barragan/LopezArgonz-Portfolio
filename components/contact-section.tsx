@@ -15,16 +15,16 @@ export function ContactSection() {
 
         <Card className="mb-8">
           <CardContent className="p-6 md:p-8">
-            <div className="flex items-start gap-4 mb-6 p-4 bg-accent/50 rounded-lg">
+            {/* <div className="flex items-start gap-4 mb-6 p-4 bg-accent/50 rounded-lg">
               <AlertCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
               <p className="text-sm leading-relaxed text-foreground/90">
                 Este canal de contacto está destinado exclusivamente para fines académicos, invitaciones a congresos y
                 seminarios, colaboraciones institucionales y consultas de prensa. No se gestionan consultas legales
                 particulares.
               </p>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-20 justify-center">
               <Button size="lg" className="gap-2" asChild>
                 <a href="mailto:lopezargonz@gmail.com">
                   <Mail className="h-5 w-5" />

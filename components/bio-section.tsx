@@ -43,8 +43,8 @@ export function BioSection() {
   return (
     <section id="trayectoria" className="py-20 md:py-32 px-4 bg-muted/30">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 md:mb-12">Trayectoria</h2>
-        <div className="space-y-6 text-lg leading-relaxed text-foreground/90 mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 md:mb-12 text-center">Trayectoria</h2>
+        <div className="space-y-6 text-lg leading-relaxed text-foreground/90 mb-16 text-justify">
           <p>
             Soy abogado especializado en Derecho del Trabajo, con experiencia en el ámbito judicial, académico y de
             investigación. Desde hace más de veinte años trabajo en la Justicia Nacional del Trabajo y desde el año 2013
@@ -67,7 +67,7 @@ export function BioSection() {
 
         {/* Formación Académica */}
         <div>
-          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-8 flex items-center gap-3">
+          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-8 flex items-center justify-center gap-3">
             <GraduationCap className="h-8 w-8 text-primary" />
             Formación Académica
           </h3>
