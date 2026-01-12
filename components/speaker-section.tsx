@@ -118,8 +118,8 @@ function ConferenceCard({ conf }: { conf: Conference }) {
 
   return (
     <CardWrapper {...wrapperProps}>
-      <Card className="overflow-hidden hover:shadow-lg transition-all hover:scale-[1.02] border-primary/20 h-full">
-        <div className="aspect-square relative overflow-hidden bg-muted group">
+      <Card className="overflow-hidden hover:shadow-lg transition-all hover:scale-[1.02] border-primary/40 h-full bg-transparent">
+        <div className="aspect-square relative overflow-hidden bg-transparent group">
           <img
             src={images[currentImageIndex]}
             alt={conf.title}
