@@ -44,13 +44,6 @@ const publications = [
     description: "Anuario de la Asociación Argentina de Derecho del Trabajo, pp. 245-274.",
   },
   {
-    title: "La Indemnización por muerte en la Ley de Contrato de Trabajo",
-    journal: "Revista de Derecho Laboral",
-    publisher: "Rubinzal Culzoni",
-    year: "31 Oct 2022",
-    description: "Las indemnizaciones laborales – II, 2022-2, pp. 423-452.",
-  },
-  {
     title: "Empresas trasnacionales y derechos humanos: Análisis técnico-jurídico y razones para avanzar hacia un instrumento vinculante",
     journal: "Doctrina",
     publisher: "Rubinzal Culzoni",
@@ -101,13 +94,6 @@ const publications = [
     publisher: "Rubinzal-Culzoni",
     year: "03 Jul 2018",
     description: "Revista de Derecho Laboral - 2018, pp. 347-378.",
-  },
-  {
-    title: "Comentario al art. 206 de Ley de Contrato de Trabajo",
-    journal: "Ley de Contrato de Trabajo Comentada",
-    publisher: "Rubinzal Culzoni",
-    year: "12 Sep 2016",
-    description: "En Ackerman, M.E. y Sforsini M.I., T. II, pp. 597-599.",
   },
 ]
 

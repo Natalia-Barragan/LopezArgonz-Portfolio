@@ -13,21 +13,8 @@ export const metadata: Metadata = {
     "Magíster en Derechos Humanos • Relator en Cámara Nacional de Apelaciones del Trabajo • Docente UBA. Autoridad académica en Derecho Laboral, Tecnología y Género.",
   generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/scale-icon.png",
+    apple: "/scale-icon.png",
   },
 }
 
