@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Gastón López Argonz - Derecho del Trabajo en la Era Digital",
   description:
     "Magíster en Derechos Humanos • Relator en Cámara Nacional de Apelaciones del Trabajo • Docente UBA. Autoridad académica en Derecho Laboral, Tecnología y Género.",
+  metadataBase: new URL("https://lopez-argonz-portfolio.vercel.app"),
   generator: "v0.app",
   icons: {
     icon: "/scale-icon.png",
