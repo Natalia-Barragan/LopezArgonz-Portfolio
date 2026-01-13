@@ -13,13 +13,14 @@ export const contentType = 'image/png'
 export default async function Image() {
   // Brand Colors
   const background = '#020c1b' // Deep Navy
-  const foreground = '#e2e8f0' // Slate 200/White-ish
+  const cyan = '#00f2ff' // Electric Cyan
+  const blue = '#3b82f6' // Electric Blue
 
   return new ImageResponse(
     (
       <div
         style={{
-          background,
+          background: `linear-gradient(to bottom right, ${background}, #0f172a)`,
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -28,11 +29,11 @@ export default async function Image() {
         }}
       >
         <svg
-          width="300"
-          height="300"
+          width="160"
+          height="160"
           viewBox="0 0 24 24"
           fill="none"
-          stroke={foreground}
+          stroke={cyan}
           strokeWidth="1.5"
           strokeLinecap="round"
           strokeLinejoin="round"
