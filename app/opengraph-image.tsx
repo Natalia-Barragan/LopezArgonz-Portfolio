@@ -1,4 +1,3 @@
-```
 import { ImageResponse } from 'next/og'
 
 // Image metadata
@@ -54,4 +53,3 @@ export default async function Image() {
     }
   )
 }
-```
