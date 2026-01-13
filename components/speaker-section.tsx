@@ -123,7 +123,7 @@ function ConferenceCard({ conf }: { conf: Conference }) {
           <img
             src={images[currentImageIndex]}
             alt={conf.title}
-            className="w-full h-full object-contain transition-transform duration-500"
+            className="w-full h-full object-cover transition-transform duration-500"
             onError={(e) => {
               e.currentTarget.src = "/placeholder.svg"
             }}
