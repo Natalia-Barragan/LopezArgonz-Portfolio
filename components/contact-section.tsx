@@ -44,7 +44,7 @@ export function ContactSection() {
         </Card>
 
         <footer className="text-center text-sm text-muted-foreground pt-8 border-t border-border">
-          <p>© {new Date().getFullYear()} Gastón López Argonz. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Gastón López Argonz. Hecho por <a href="https://barragan-natalia-portfolio-vert-eight-97.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Natalia Barragan</a></p>
           <p className="mt-2 text-primary/80">Relator - Cámara Nacional de Apelaciones del Trabajo • Docente UBA</p>
         </footer>
       </div>
